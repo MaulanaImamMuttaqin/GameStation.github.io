@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Verdana";
+}
+
+a {
+  text-decoration: none;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+
+}
+/*header*/
+header{
+  background-color: rgba(20, 45, 87, 0.9);
+  height:65px;
+  width:100%;
+  position:fixed;
+  z-index: 10;
+}
+.logo {
+  height:50px;
+  margin:5px;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+}
+.header-right a{
+    line-height: 65px;
+    padding:0 30px;
+    color: #d0def5;
+    display:block;
+    float:left;
+}
+
+/*bagian utama*/
+.background{
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/image.gif");
+  filter: blur(8px);
+  z-index: -1;
+  position:relative;
+}
+
+.logo-main{
+  position:absolute;
+  top:0;
+  height:100%;
+  width:100%;
+}
+.logo-container{
+  position:relative;
+  height:100%;
+}
+.logo-main-i{
+  position:absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+
+  height:250px;
+}
+.utama{
+  text-align: center;
+  border: 1px solid #395075;
+  height:570px;
+  background-color: #395075;
+}
+.content{
+  margin-top:50px;
+}
+.content h1, .content p{
+  color: #d0ddf2;
+  opacity:0.9;
+}
+.content h1{
+  font-size:45px;
+  letter-spacing: 5px;
+}
+.daftar{
+  margin-top:50px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.signup {
+  background-color: #239b76;
+}
+
+.login {
+  background-color: #281473;
+}
+
+
+/*bagian tambahan*/
+.tambahan{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#0d1f45;
+  text-align: center;
+  border:1px solid #0d1f45;
+}
+.tambahan h2{
+ padding-top: 80px;
+ padding-bottom: 50px;
+ color: #d0ddf2;
+}
+
+.games{
+  height:500px;
+}
+.game-title p{
+  color : #d0ddf2;
+  font-weight: bolder;
+
+}
+.game{
+  width:25%;
+  float:left;
+
+}
+
+.game-logo{
+  height:250px;
+  position:relative;
+}
+.game-logo img{
+  height:200px;
+  width:200px;
+  position:absolute;
+  margin:auto ;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  border-radius: 10px;
+}
